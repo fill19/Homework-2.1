@@ -20,10 +20,7 @@ public class Reverse {
         System.out.println("The sum of positive values:");
         theSum(daim);
 
-        //Third Task
-        int[] chag = {2, 4, 7, 16};
-        System.out.println("The avarage of values: ");
-        theAvarage(chag);
+
 
 
         //Forth Task
@@ -49,15 +46,7 @@ public class Reverse {
         System.out.println(avarage);
     }
 
-    private static int theSum(int[] daim) {
-        int sum = 0;
-        for (int i = 0; i < daim.length; i++) {
-            if (daim[i] > 0)
-                sum += daim[i];
-            System.out.println(sum);
-        }
-        return sum;
-    }
+
 
     private static void duplicatedValues(int[] dex) {
         for (int i = 0; i < dex.length; i++) {
